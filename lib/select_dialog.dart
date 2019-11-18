@@ -93,7 +93,7 @@ class _SelectDialogState<T> extends State<SelectDialog<T>> {
                 onChanged: bloc.onTextChanged,
                 decoration: widget.searchBoxDecoration ??
                     InputDecoration(
-                      hintText: "Procurar",
+                      hintText: "Search",
                       contentPadding: const EdgeInsets.all(2.0),
                     ),
               ),
